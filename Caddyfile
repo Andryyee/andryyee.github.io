@@ -1,5 +1,0 @@
-# Замени example.com на свой домен.
-# Caddy сам получит HTTPS-сертификат, когда A-запись домена будет указывать на сервер.
-example.com, www.example.com {
-    reverse_proxy resume:80
-}
